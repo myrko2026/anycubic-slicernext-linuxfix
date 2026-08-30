@@ -1,49 +1,26 @@
-AnycubicSlicerNext LinuxFix
-Unofficial Linux workaround for AnycubicSlicerNext.
+# AnycubicSlicerNext LinuxFix
 
-On some Linux systems, especially NVIDIA + Wayland, the 3D viewport and print bed can be extremely slow or stutter heavily.
+![Linux](https://img.shields.io/badge/Linux-x86__64-blue)
+![Wayland](https://img.shields.io/badge/Wayland-tested-green)
+![NVIDIA](https://img.shields.io/badge/NVIDIA-tested-green)
+![License](https://img.shields.io/badge/license-MIT-blue)
 
-LinuxFix creates a new AppImage that automatically enables a compatible Mesa Zink graphics configuration when needed.
+**Unofficial Linux compatibility workaround for AnycubicSlicerNext.**
 
-Features
-Works with the original AnycubicSlicerNext AppImage
-No external launcher required
-No manual environment variables
-Creates a standalone AppImage
-Automatically detects NVIDIA + Wayland
-Uses Zink for the affected configuration
-Build
-Install the required tools:
+On some Linux systems, especially **NVIDIA + Wayland**, the 3D viewport and print bed can suffer from severe stuttering and extremely poor performance.
 
+LinuxFix creates a new AppImage with an integrated compatibility workaround using **Mesa Zink**.
+
+## 🚀 Quick Start
+
+### Requirements
+
+- Linux x86_64
+- AnycubicSlicerNext AppImage
+- `curl`
+- `fuse3`
+
+On Ubuntu:
+
+```bash
 sudo apt install curl fuse3
-
-Make the build script executable:
-
-chmod +x build.sh
-
-Build the LinuxFix AppImage:
-
-./build.sh /path/to/AnycubicSlicer.AppImage
-
-The finished AppImage will be created in the project directory.
-
-Make it executable if necessary:
-
-chmod +x AnycubicSlicerNext-*-linux-x86_64-linuxfix.AppImage
-
-Then simply double-click the AppImage to start AnycubicSlicerNext.
-
-Tested
-Currently tested with:
-
-Ubuntu 26.04
-NVIDIA RTX 3060
-NVIDIA proprietary driver
-Wayland
-AnycubicSlicerNext 1.3.9.4
-Other Linux distributions and GPUs are welcome for testing.
-
-Disclaimer
-This is an unofficial community project and is not affiliated with or endorsed by Anycubic.
-
-AnycubicSlicerNext remains the property of its respective copyright holders.
