@@ -26,9 +26,14 @@ On Ubuntu:
 sudo apt install curl fuse3
 ```
 
-### Download
+## 📥 Download
 
-Download the build.sh on your computer.
+Download the `build.sh` file from this repository, or clone the repository with Git:
+
+```bash
+git clone https://github.com/myrko2026/anycubic-slicernext-linuxfix.git
+cd anycubic-slicernext-linuxfix
+```
 
 ### Build
 
