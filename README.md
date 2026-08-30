@@ -26,6 +26,10 @@ On Ubuntu:
 sudo apt install curl fuse3
 ```
 
+### Download
+
+Download the build.sh on your computer.
+
 ### Build
 
 Make the build script executable:
