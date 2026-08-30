@@ -7,10 +7,10 @@ On some Linux systems, especially NVIDIA + Wayland, the 3D viewport and print be
 LinuxFix creates a new AppImage that automatically enables a compatible Mesa Zink graphics configuration when needed.
 
 Features
-Works directly with the original AnycubicSlicerNext AppImage
+Works with the original AnycubicSlicerNext AppImage
 No external launcher required
 No manual environment variables
-Result is a normal standalone AppImage
+Creates a standalone AppImage
 Automatically detects NVIDIA + Wayland
 Uses Zink for the affected configuration
 Build
@@ -20,7 +20,7 @@ Install the required tools:
 sudo apt install curl fuse3
 
 
-Make the script executable:
+Make the build script executable:
 
 chmod +x build.sh
 
