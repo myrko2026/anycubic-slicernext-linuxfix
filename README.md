@@ -46,7 +46,7 @@ chmod +x build.sh
 Run the build script with your original AnycubicSlicerNext AppImage:
 
 ```bash
-./build.sh /path/to/AnycubicSlicer.AppImage
+sudo ./build.sh /path/to/AnycubicSlicer.AppImage
 ```
 
 The script automatically downloads `appimagetool` if required and creates the LinuxFix AppImage.
