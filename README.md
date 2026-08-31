@@ -43,7 +43,7 @@ Run the build script with your original AnycubicSlicerNext AppImage:
 ./build.sh /path/to/AnycubicSlicer.AppImage
 ```
 
-The script automatically downloads `appimagetool` if required and creates the LinuxFix AppImage.
+The script automatically downloads `appimagetool` , `curl` , `fuse3` if required and creates the LinuxFix AppImage.
 
 ### Start
 
