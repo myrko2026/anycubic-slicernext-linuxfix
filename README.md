@@ -20,12 +20,6 @@ LinuxFix creates a new AppImage with an integrated compatibility workaround usin
 - `curl`
 - `fuse3`
 
-On Ubuntu:
-
-```bash
-sudo apt install curl fuse3
-```
-
 ## 📥 Download
 
 Download the `build.sh` file from this repository, or clone the repository with Git:
