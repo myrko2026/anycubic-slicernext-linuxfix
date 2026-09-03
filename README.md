@@ -47,13 +47,7 @@ The script automatically downloads `appimagetool` , `curl` , `fuse3` if required
 
 ### Start
 
-Make the generated AppImage executable:
-
-```bash
-chmod +x AnycubicSlicerNext-*-linux-x86_64-linuxfix.AppImage
-```
-
-Then simply double-click the AppImage to start AnycubicSlicerNext.
+Simply double-click the AppImage to start AnycubicSlicerNext.
 
 ## ✨ Features
 
